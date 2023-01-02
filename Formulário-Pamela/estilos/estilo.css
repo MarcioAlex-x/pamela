@@ -1,0 +1,81 @@
+.apresentacao{
+    background-image: linear-gradient(to bottom left, #E0C514, #DB9730, #B84C32, #CF2D99, #6E2BC4);
+    border-radius: 2rem;
+    padding: 20px;
+}
+
+.pamelaContent{
+    background: transparent ;
+}
+.pamelaPriscyla{
+    margin: auto;
+    padding: 1rem;
+    border: 1px double #FFB733;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+.bannerContent{
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 20px;
+}
+.topo{
+    position: fixed;
+    top: 90%;
+    left: 95%;   
+}
+.contato{
+    background-image: linear-gradient(to bottom left, #6E2BC4, #CF2D99, #B84C32, #DB9730, #E0C514);
+    border-radius: 2rem;
+    padding: 20px;
+}
+.contato-form{
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 20px;
+}
+.barra{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.barras-center{
+    color: #FF4633;
+}
+.barra-center{
+    width: 40%;
+    height: 1px;
+    background-color: #FF8A3F;
+}
+/* #redes{
+    margin: 0 auto;
+} */
+.cart{
+    color: yellow;
+}
+#topo{
+    color: #FF4633;
+}
+.whatsapp{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 80%;
+    left: 93%;
+    z-index: 1; 
+}
+
+@media screen and ( max-width: 900px){
+    .topo{
+        display: none;   
+    }
+    .barras-center{
+        display: none;
+    }
+    .whatsapp{
+        position: fixed;
+        top: 80%;
+        left: 85%;
+        z-index: 1; 
+    }
+
+}
